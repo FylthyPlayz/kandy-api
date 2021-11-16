@@ -65,22 +65,27 @@
         {
             "id": 1,
             "name": "Tom Schamberger",
-            "store": "iPhone"
+            "locationId": 1
         },
         {
             "id": 2,
             "name": "Rose Schmitt",
-            "store": "Printers"
+            "locationId": 2
         },
         {
             "id": 3,
             "name": "Fat Randy",
-            "store": "Kicking Field Goals"
+            "locationId": 3
         },
         {
             "id": 4,
             "name": "Derrick Henry",
-            "store": "Scoring TD's"
+            "locationId": 4
+        },
+        {
+            "id": 5,
+            "name": "Kevin Byard",
+            "locationId": 5
         }
     ],
     "purchases": [
@@ -88,14 +93,14 @@
             "id": 1,
             "customerId": 4,
             "employeeId": 1,
-            "purchase": "Sour Patch Kids",
+            "kandyId": 1,
             "dateCompleted": "2021-05-26"
         },
         {
             "id": 2,
             "customerId": 7,
             "employeeId": 4,
-            "purchase": "Cannot connect to any wifi.",
+            "kandyId": 4,
             "dateCompleted": "2021-10-30"
         }
     ],
@@ -135,22 +140,26 @@
         {
             "id": 1,
             "name": "Sour Patch Kids",
-            "typeId": 1
+            "typeId": 1,
+            "price": 2.99
         },
         {
             "id": 2,
             "name": "Twizzlers",
-            "typeId": 3
+            "typeId": 3,
+            "price": 3.99
         },
         {
             "id": 3,
             "name": "Caramel Bites",
-            "typeId": 4
+            "typeId": 4,
+            "price": 1.99
         },
         {
             "id": 4,
             "name": "Nerd Clusters",
-            "typeId": 1
+            "typeId": 1,
+            "price": 99999999.99
         }
     ],
     "kandyTypes": [

@@ -140,25 +140,25 @@
         {
             "id": 1,
             "name": "Sour Patch Kids",
-            "typeId": 1,
+            "kandytypeId": 1,
             "price": 2.99
         },
         {
             "id": 2,
             "name": "Twizzlers",
-            "typeId": 3,
+            "kandytypeId": 3,
             "price": 3.99
         },
         {
             "id": 3,
             "name": "Caramel Bites",
-            "typeId": 4,
+            "kandytypeId": 4,
             "price": 1.99
         },
         {
             "id": 4,
             "name": "Nerd Clusters",
-            "typeId": 1,
+            "kandytypeId": 1,
             "price": 99999999.99
         }
     ],

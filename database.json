@@ -59,6 +59,18 @@
       "name": "Renaud Erbe",
       "address": "30 Westridge Pass",
       "email": "rerbe9@psu.edu"
+    },
+    {
+      "name": "Randy Orton",
+      "address": "1800 RKO Avenue",
+      "email": "randyrko@email.com",
+      "id": 11
+    },
+    {
+      "name": "Jacob",
+      "address": "1800 Wut Avenue",
+      "email": "jacob@email.com",
+      "id": 12
     }
   ],
   "employees": [
@@ -109,22 +121,58 @@
       "fullTime": true,
       "hourlyRate": 20,
       "id": 6
+    },
+    {
+      "name": "Harrison",
+      "locationId": 3,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 45,
+      "id": 7
     }
   ],
   "purchases": [
     {
       "id": 1,
       "customerId": 4,
-      "employeeId": 1,
-      "kandyId": 1,
+      "productLocationId": 1,
       "dateCompleted": "2021-05-26"
     },
     {
       "id": 2,
       "customerId": 7,
-      "employeeId": 4,
-      "kandyId": 4,
+      "productLocationId": 4,
       "dateCompleted": "2021-10-30"
+    },
+    {
+      "customerId": 12,
+      "productLocationId": "",
+      "dateCompleted": 1637702995896,
+      "id": 3
+    },
+    {
+      "customerId": 12,
+      "productLocationId": "",
+      "dateCompleted": 1637703222533,
+      "id": 4
+    },
+    {
+      "customerId": 12,
+      "productLocationId": "",
+      "dateCompleted": 1637703226413,
+      "id": 5
+    },
+    {
+      "customerId": 12,
+      "productLocationId": "",
+      "dateCompleted": 1637703303576,
+      "id": 6
+    },
+    {
+      "customerId": 12,
+      "productLocationId": "",
+      "dateCompleted": 1637703308007,
+      "id": 7
     }
   ],
   "locations": [
@@ -201,6 +249,20 @@
     {
       "id": 4,
       "category": "chocolates"
+    }
+  ],
+  "productLocation": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "kandyId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "kandyId": 3,
+      "quantity": 4
     }
   ]
 }
